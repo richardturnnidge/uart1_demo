@@ -12,6 +12,6 @@ If using a Pico, save the Python code as main.py and will will run when just pro
 
 The Pico sends a command bytes, followed by a hex code of the value as it is not easy to send full byte values over serial.
 
-In this example, a command 'R' is sent to indicate the Right potentiometer, followed by a value suc as A6. The hex is then converted back to a single decimal byte and stored.
+In this example, a command 'R' is sent to indicate the Right potentiometer, followed by a value such as A6. The hex is then converted back to a single decimal byte and stored.
 
 The demo code simply loops round until some data is available and then deals with it.

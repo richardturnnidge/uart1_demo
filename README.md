@@ -15,3 +15,5 @@ The Pico sends a command byte, followed by a hex code of the value as it is not 
 In this example, a command 'R' is sent to indicate the Right potentiometer, followed by a value such as A6. The hex is then converted back to a single decimal byte and stored.
 
 The demo code simply loops round until some data is available and then deals with it.
+
+NOTE: The main.py python code runs on the Pico, the uart1_demo.bin runs on the Agon. The Agon's assembly source is the asm file!!

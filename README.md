@@ -10,7 +10,7 @@ The diagram shows the wiring. I made a small modification to the paddles as they
 
 If using a Pico, save the Python code as main.py and will will run when just provided with power.
 
-The Pico sends a command bytes, followed by a hex code of the value as it is not easy to send full byte values over serial.
+The Pico sends a command byte, followed by a hex code of the value as it is not easy to send full byte values over serial.
 
 In this example, a command 'R' is sent to indicate the Right potentiometer, followed by a value such as A6. The hex is then converted back to a single decimal byte and stored.
 
